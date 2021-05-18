@@ -21,7 +21,7 @@ gem 'json'
 gem 'data_objects'
 gem 'rubyzip', '>= 1.2.1'
 gem 'espeak-ruby', '>= 1.0.4' # Text-to-Voice
-gem 'nokogiri', '>= 1.7'
+gem 'nokogiri', '>= 1.11.4'
 
 if RUBY_PLATFORM.downcase.include?('linux')
   gem 'therubyracer', '~> 0.12.2', '<= 0.12.2'
@@ -53,7 +53,7 @@ gem 'dm-migrations'
 
 # Metasploit Integration extension
 group :ext_msf do
-  gem 'msfrpc-client'
+  gem 'msfrpc-client', '>= 1.1.1'
 end
 
 # Notifications extension
