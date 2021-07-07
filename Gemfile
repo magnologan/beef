@@ -16,9 +16,9 @@ gem 'mime-types'
 gem 'execjs'
 gem 'ansi'
 gem 'term-ansicolor', :require => 'term/ansicolor'
-gem 'dm-core'
+gem 'dm-core', '>= 1.2.1'
 gem 'json'
-gem 'data_objects'
+gem 'data_objects', '>= 0.10.17'
 gem 'rubyzip', '>= 1.2.1'
 gem 'espeak-ruby', '>= 1.0.4' # Text-to-Voice
 gem 'nokogiri', '>= 1.7'
@@ -29,7 +29,7 @@ end
 
 # SQLite support
 group :sqlite do
-  gem 'dm-sqlite-adapter'
+  gem 'dm-sqlite-adapter', '>= 1.2.0'
 end
 
 # PostgreSQL support
@@ -49,7 +49,7 @@ end
 
 gem 'parseconfig'
 gem 'erubis'
-gem 'dm-migrations'
+gem 'dm-migrations', '>= 1.2.0'
 
 # Metasploit Integration extension
 group :ext_msf do
@@ -73,7 +73,7 @@ end
 
 # network extension
 group :ext_network do
-  gem 'dm-serializer'
+  gem 'dm-serializer', '>= 1.2.2'
 end
 
 # QRcode extension
